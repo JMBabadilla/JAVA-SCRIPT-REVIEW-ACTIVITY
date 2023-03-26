@@ -48,7 +48,7 @@ function Contact(name, number) {
     this.number = number;
   
     this.print = function() {
-        document.getElementById("demo4").innerHTML = this.name + ": " + this.number;
+        document.getElementById("demo5").innerHTML = this.name + ": " + this.number;
 
     }
   }
